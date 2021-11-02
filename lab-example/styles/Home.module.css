@@ -1,3 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&family=Teko:wght@500&display=swap");
+
 .container {
-  padding: 0 2rem;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 43%,
+    rgba(156, 251, 145, 1) 100%
+  );
+  border-radius: 25px;
+  font-family: "Teko", sans-serif;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.vs {
+  font-family: "Architects Daughter", cursive;
+  font-size: 5em;
+}
+
+.users {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  margin: 5em;
+}
+.img {
 }
